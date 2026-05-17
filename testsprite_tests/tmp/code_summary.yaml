@@ -1,0 +1,132 @@
+version: "2"
+type: frontend
+tech_stack:
+  - JavaScript
+  - Next.js
+  - React
+  - Tailwind CSS
+  - Framer Motion
+routes:
+  - path: /
+    file: app/page.js
+    auth_required: false
+    description: Home page with hero, technical skills summary, services preview, featured projects, and contact form CTA.
+  - path: /about
+    file: app/about/page.js
+    auth_required: false
+    description: Detailed bio, technical expertise breakdown across Backend/Frontend/DevOps, and professional experience timeline.
+  - path: /services
+    file: app/services/page.js
+    auth_required: false
+    description: Full breakdown of development services, process steps, and value propositions.
+  - path: /projects
+    file: app/projects/page.js
+    auth_required: false
+    description: Complete projects gallery with interactive category filtering and detailed project cards.
+  - path: /contact
+    file: app/contact/page.js
+    auth_required: false
+    description: Contact page featuring a primary inquiry form, FAQ accordion, and direct social/email contact links.
+features:
+  - name: Navigation & Branding
+    description: Responsive sticky header with the <MM/> logo and navigation links. Includes a mobile-specific animated drawer menu.
+    files:
+      - components/layout/Navbar.jsx
+    entry_route: /
+    user_interactions:
+      - Click logo to return home
+      - Toggle mobile menu on small screens
+      - Navigate via links (About, Services, Projects, Contact)
+      - Click 'Hire Me' CTA to jump to contact page
+    api_calls: []
+    auth_required: false
+  - name: Home Hero & Experience Stats
+    description: High-impact hero section with professional summary, interactive terminal card, and key metrics (Years Exp, Projects, Clients).
+    files:
+      - app/page.js
+    entry_route: /
+    user_interactions:
+      - Click 'View Projects' or 'Hire Me' buttons
+      - Observe terminal animation and stats counters
+    api_calls: []
+    auth_required: false
+  - name: About Profile & Bio
+    description: In-depth professional story, engineer profile terminal, and expanded technical skills categories.
+    files:
+      - app/about/page.js
+    entry_route: /about
+    user_interactions:
+      - Scroll through bio and story
+      - View technical skills categorized by domain
+    api_calls: []
+    auth_required: false
+  - name: Work Experience Timeline
+    description: Vertical chronological timeline of professional roles with role descriptions and timeframes.
+    files:
+      - app/about/page.js
+    entry_route: /about
+    user_interactions:
+      - Scroll through the experience journey
+    api_calls: []
+    auth_required: false
+  - name: Service Catalog & Process
+    description: Detailed grid of services with feature lists and a 'How I Work' four-step process visualization.
+    files:
+      - app/services/page.js
+    entry_route: /services
+    user_interactions:
+      - Hover over service cards to see highlights
+      - Read through the development process steps
+    api_calls: []
+    auth_required: false
+  - name: Interactive Projects Gallery
+    description: Advanced projects grid with filtering tabs for MERN, Ecommerce, SaaS, and Dashboards. Cards feature detailed tags and feature lists.
+    files:
+      - app/projects/page.js
+    entry_route: /projects
+    user_interactions:
+      - Click filter tabs to update the projects list
+      - Scroll through project articles
+      - Click 'Live Demo' or 'GitHub' placeholders
+    api_calls: []
+    auth_required: false
+  - name: FAQ & Support
+    description: Accordion-style FAQ section on the contact page for common client inquiries.
+    files:
+      - app/contact/page.js
+    entry_route: /contact
+    user_interactions:
+      - Click questions to expand or collapse answers
+    api_calls: []
+    auth_required: false
+  - name: Contact Form Submission
+    description: Integrated contact forms found on Home and Contact pages for user inquiries.
+    files:
+      - app/page.js
+      - app/contact/page.js
+    entry_route: /contact
+    user_interactions:
+      - Fill in Name, Email, Subject, and Message
+      - Click 'Send Message' button
+    api_calls: []
+    auth_required: false
+  - name: Footer & Social Connections
+    description: Global footer with branding, copyright, and links to GitHub, LinkedIn, Twitter, and Email.
+    files:
+      - components/layout/Footer.jsx
+    entry_route: /
+    user_interactions:
+      - Click social platform links
+      - Click email link for mailto interaction
+    api_calls: []
+    auth_required: false
+known_limitations:
+  - issue: Contact forms are UI-only (stateless); no backend API endpoint is currently connected.
+    location: app/page.js, app/contact/page.js
+    impact: Submitting the form does not persist data or send notifications.
+  - issue: Project 'Live Demo' and 'GitHub' links are placeholders.
+    location: app/page.js, app/projects/page.js
+    impact: External navigation to actual repositories is not yet functional.
+  - issue: Social media links in footer and contact page use '#' placeholders.
+    location: components/layout/Footer.jsx, app/contact/page.js
+    impact: Clicking links does not lead to real external profiles.

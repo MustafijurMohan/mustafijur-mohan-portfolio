@@ -1,0 +1,17 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "my-app",
+    "projectPath": "d:\\Web Design\\MERN Stack Project\\Project\\Portfolio\\my-app",
+    "testIds": [],
+    "additionalInstruction": "",
+    "serverMode": "development",
+    "envs": {
+      "API_KEY": "sk-user-5qp2wlQGN5IXF_OVuT0pUOM2pBE9HaPeDjI3KZ0069iNpJrZ0VGwQ-mzS1VWbS2uh5dw1BCfLyBqBLevLljFHAwDW16A6g5eBLSVpbMa9gUfAuD6i9QBUi6jWxEzCdQWEik"
+    }
+  },
+  "serverPort": 52442
+}

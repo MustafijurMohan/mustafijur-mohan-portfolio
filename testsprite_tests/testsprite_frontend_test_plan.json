@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "TC001",
+    "title": "Navigate from Home to Contact from the main navigation",
+    "description": "A visitor can use the top navigation to reach the Contact page from Home.",
+    "category": "Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Contact link in the main navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Contact page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC002",
+    "title": "Navigate from Home to Projects from the main navigation",
+    "description": "A visitor can use the top navigation to reach the Projects page from Home.",
+    "category": "Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Projects link in the main navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Projects page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC003",
+    "title": "Visit About from the home page and continue to Services and Contact",
+    "description": "This verifies that a visitor can use site navigation to move from Home to About, then Services, then Contact without losing access to the main pages.",
+    "category": "Site Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to open the About page"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to open the Services page"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to open the Contact page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Contact page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC004",
+    "title": "Navigate from Home to About from the main navigation",
+    "description": "A visitor can use the top navigation to reach the About page from Home.",
+    "category": "Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the About link in the main navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the About page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC005",
+    "title": "Use the hero action to start contacting the developer",
+    "description": "A visitor can use the primary hero action on Home to reach the Contact page.",
+    "category": "Hero Section",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Hire Me action in the hero section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Contact page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC006",
+    "title": "Navigate from Home to Services from the main navigation",
+    "description": "A visitor can use the top navigation to reach the Services page from Home.",
+    "category": "Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Services link in the main navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Services page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC007",
+    "title": "Reach the projects gallery from the home page",
+    "description": "This verifies that a visitor can discover the projects gallery from the home page and reach the projects page successfully.",
+    "category": "Featured Projects Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects section"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view all projects"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the projects gallery is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC008",
+    "title": "Submit the contact form from the contact page",
+    "description": "A visitor can fill out and submit the detailed contact form on the contact page and see a success confirmation.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the name field with a valid name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with a valid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the subject field with a valid subject"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a valid message"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC009",
+    "title": "Open and use the mobile navigation drawer",
+    "description": "A mobile user can open the navigation drawer, choose a page, and reach the selected destination.",
+    "category": "Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the mobile navigation drawer"
+      },
+      {
+        "type": "action",
+        "description": "Select the About link in the mobile drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the About page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the navigation drawer is closed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC010",
+    "title": "Submit the home page contact form",
+    "description": "This verifies that a visitor can enter contact details and a message in the home page form and see a successful form interaction.",
+    "category": "Contact Form on Home Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the contact form section"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the full name field with a valid name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with a valid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the subject field with a valid subject"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a valid message"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the form is cleared or reset"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC011",
+    "title": "Use the hero action to browse projects",
+    "description": "A visitor can use the primary hero action on Home to reach the Projects page.",
+    "category": "Hero Section",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the View Projects action in the hero section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Projects page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC012",
+    "title": "Open and close the mobile navigation drawer",
+    "description": "This verifies that a mobile user can open the hamburger drawer, select a destination, and close the drawer successfully.",
+    "category": "Site Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the mobile navigation drawer"
+      },
+      {
+        "type": "action",
+        "description": "Select the About page from the drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the About page is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the mobile navigation drawer"
+      },
+      {
+        "type": "action",
+        "description": "Close the mobile navigation drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the navigation drawer is hidden"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC013",
+    "title": "Complete the home to projects to contact journey",
+    "description": "A visitor can discover projects from the Home page, browse the gallery, and reach the Contact page through the main navigation or call to action.",
+    "category": "Projects Filter",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view projects"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the projects gallery is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Click the primary contact call to action or navigation link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC014",
+    "title": "Submit the detailed contact form on the contact page",
+    "description": "This verifies that a visitor can complete the dedicated contact form on the Contact page and see a successful form interaction.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the full name field with a valid name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with a valid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the subject field with a valid subject"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a valid message"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the form is cleared or reset"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC015",
+    "title": "View all services from the home page",
+    "description": "This verifies that a visitor can move from the home page services preview to the full services listing.",
+    "category": "Services Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the services preview section"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view all services"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Services page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC016",
+    "title": "Filter projects by category",
+    "description": "This verifies that a visitor can narrow the projects gallery to a specific category and see the matching results.",
+    "category": "Featured Projects Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Select the frontend projects filter"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify frontend projects are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify non-matching project categories are not displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC017",
+    "title": "Use the home page discovery sections to reach contact",
+    "description": "This verifies that a visitor can scan the home page discovery sections and follow the main call to action to reach Contact.",
+    "category": "Home Page Discovery",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the skills section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the services preview section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects preview section"
+      },
+      {
+        "type": "action",
+        "description": "Click the Hire Me call to action"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Contact page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC018",
+    "title": "Filter projects to full stack work",
+    "description": "A visitor can open the Projects gallery and narrow the results to full stack projects.",
+    "category": "Projects Filter",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Select the Full Stack filter"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify only matching project cards are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC019",
+    "title": "Filter projects to frontend work",
+    "description": "A visitor can open the Projects gallery and narrow the results to frontend projects.",
+    "category": "Projects Filter",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Select the Frontend filter"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify only matching project cards are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC020",
+    "title": "Filter projects to backend work",
+    "description": "A visitor can open the Projects gallery and narrow the results to backend projects.",
+    "category": "Projects Filter",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Select the Backend filter"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify only matching project cards are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC021",
+    "title": "Return from projects discovery to contact",
+    "description": "A visitor can move from projects discovery back to the Contact page using the available navigation path.",
+    "category": "Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the View Projects action in the hero section"
+      },
+      {
+        "type": "action",
+        "description": "Click the Contact link in the main navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Contact page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC022",
+    "title": "Open a featured project live demo from the home page",
+    "description": "This verifies that a visitor can open a featured project live demo link from the home page and reach the linked destination.",
+    "category": "Featured Projects Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects section"
+      },
+      {
+        "type": "action",
+        "description": "Click the live demo link on a featured project card"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the linked project destination is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC023",
+    "title": "Return to the full project gallery",
+    "description": "A visitor can restore the complete set of projects after using a category filter.",
+    "category": "Projects Filter",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Select a project category filter"
+      },
+      {
+        "type": "action",
+        "description": "Select the All filter"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the complete project gallery is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC024",
+    "title": "Open a featured project repository from the home page",
+    "description": "This verifies that a visitor can open a featured project repository link from the home page and reach the linked destination.",
+    "category": "Featured Projects Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects section"
+      },
+      {
+        "type": "action",
+        "description": "Click the GitHub link on a featured project card"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the linked repository destination is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC025",
+    "title": "Explore home page discovery sections",
+    "description": "A visitor can scroll through the Home page and view the skills, services preview, and featured projects preview sections.",
+    "category": "Home Discovery Sections",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the skills section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the services preview section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects preview section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the skills section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the featured projects preview is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC026",
+    "title": "View the home page featured project cards",
+    "description": "This verifies that a visitor can see the featured project cards on the home page after scrolling to that section.",
+    "category": "Featured Projects Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify featured project cards are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC027",
+    "title": "Use footer links to reach contact and social destinations",
+    "description": "A visitor can use the footer email and social links from the Home page.",
+    "category": "Footer Links",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the email link in the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the GitHub link in the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the LinkedIn link in the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the Twitter link in the footer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the footer contact and social links are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the email link is available"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC028",
+    "title": "View the Services page offerings",
+    "description": "A visitor can open the Services page and see the full list of offered services.",
+    "category": "Services Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /services"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the services listing is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify multiple service offerings are displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC029",
+    "title": "Read the contact page FAQ and use contact links",
+    "description": "This verifies that a visitor can expand FAQ items and access the contact links from the Contact page.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Expand the first FAQ item"
+      },
+      {
+        "type": "action",
+        "description": "Collapse the first FAQ item"
+      },
+      {
+        "type": "action",
+        "description": "Click the email link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the email link is available"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the FAQ content is displayed and then hidden"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC030",
+    "title": "View the About page content sections",
+    "description": "A visitor can open the About page and see the biography, technology stack, and experience timeline sections.",
+    "category": "About Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /about"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the biography section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the technology stack section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the experience timeline section is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC031",
+    "title": "Expand and collapse a contact FAQ answer",
+    "description": "A visitor can expand a FAQ item on the contact page to read the answer and collapse it again.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Select a FAQ question"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the answer is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Select the same FAQ question again"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the answer is hidden"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC032",
+    "title": "View the full services listing",
+    "description": "A visitor can open the Services page and see the complete list of services offered.",
+    "category": "Services Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /services"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the services list is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC033",
+    "title": "Open featured project external links",
+    "description": "A visitor can open the featured project Live Demo and GitHub links from the Home page.",
+    "category": "Featured Projects Preview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the featured projects preview section"
+      },
+      {
+        "type": "action",
+        "description": "Click the Live Demo link for a featured project"
+      },
+      {
+        "type": "action",
+        "description": "Click the GitHub link for a featured project"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the featured project external links are available"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the project cards remain displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC034",
+    "title": "Read FAQ answers on the Contact page",
+    "description": "A visitor can expand and collapse the FAQ accordion on the Contact page and see the answers appear.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Expand one FAQ item"
+      },
+      {
+        "type": "action",
+        "description": "Collapse the same FAQ item"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify FAQ content can be expanded"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify FAQ content can be collapsed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC035",
+    "title": "Start an email from the contact page",
+    "description": "A visitor can use the email contact link on the contact page to start a new email message.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Click the email contact link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a new email message is opened"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC036",
+    "title": "See required-field validation on an incomplete contact form",
+    "description": "A visitor cannot submit the contact form until required fields are completed.",
+    "category": "Contact Form",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form without entering any details"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify required-field validation errors are visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC037",
+    "title": "Start an email from the footer",
+    "description": "A visitor can scroll to the footer on the home page and use the email link to start a new email message.",
+    "category": "Footer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the email link in the footer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a new email message is opened"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC038",
+    "title": "Open the LinkedIn profile from the contact page",
+    "description": "A visitor can use the LinkedIn contact link on the contact page to view the linked profile destination.",
+    "category": "Contact Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Click the LinkedIn contact link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the linked profile destination is opened"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC039",
+    "title": "Open the GitHub link from the footer",
+    "description": "A visitor can scroll to the footer on the home page and use the GitHub link to observe the linked destination.",
+    "category": "Footer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the GitHub link in the footer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the linked destination is opened"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC040",
+    "title": "Open the LinkedIn link from the footer",
+    "description": "A visitor can scroll to the footer on the home page and use the LinkedIn link to observe the linked destination.",
+    "category": "Footer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the LinkedIn link in the footer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the linked destination is opened"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC041",
+    "title": "Open the Twitter link from the footer",
+    "description": "A visitor can scroll to the footer on the home page and use the Twitter link to observe the linked destination.",
+    "category": "Footer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the Twitter link in the footer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the linked destination is opened"
+      }
+    ],
+    "priority": "Low"
+  }
+]
