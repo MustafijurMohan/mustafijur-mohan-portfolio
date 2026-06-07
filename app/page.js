@@ -84,6 +84,9 @@ export default function Home() {
                 <Link href="/contact" className="glass-panel px-8 py-4 rounded-xl font-bold border border-outline-variant text-on-surface hover:bg-surface-variant/20 transition-all">
                   Hire Me
                 </Link>
+                <a href="/Mustafijur_Mohan_Resume.pdf" download="Mustafijur_Mohan_Resume.pdf" className="glass-panel px-8 py-4 rounded-xl font-bold border border-outline-variant text-on-surface hover:bg-surface-variant/20 transition-all flex items-center gap-2">
+                  Download CV <span className="material-symbols-outlined">download</span>
+                </a>
               </motion.div>
               <motion.div variants={fadeUp} custom={5} className="flex gap-8 pt-4">
                 {[{ label: "Years Exp.", value: "5+" }, { label: "Projects", value: "50+" }, { label: "Clients", value: "30+" }].map((s) => (
@@ -113,7 +116,7 @@ export default function Home() {
                   <p className="pl-4 text-on-surface">status: <span className="text-tertiary-container">&apos;Available&apos;</span></p>
                   <p className="text-secondary">&#125;;</p>
                   <div className="pt-4 border-t border-outline-variant/20">
-                    <p className="text-on-surface-variant">// Delivering scalable solutions</p>
+                    <p className="text-on-surface-variant">{"// Delivering scalable solutions"}</p>
                     <p className="text-primary">console.log(developer.status);</p>
                     <p className="text-primary-container animate-pulse">&gt; Available ✓</p>
                   </div>

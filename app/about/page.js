@@ -90,7 +90,7 @@ export default function AboutPage() {
                   <span className="ml-2 font-code-sm text-code-sm text-on-surface-variant">about.js</span>
                 </div>
                 <div className="bg-surface-container-lowest p-6 font-code-sm text-code-sm space-y-2">
-                  <p className="text-on-surface-variant">// Mustafijur Mohan — Engineer Profile</p>
+                  <p className="text-on-surface-variant">{"// Mustafijur Mohan — Engineer Profile"}</p>
                   <p className="text-secondary"><span className="text-primary">const</span> profile = &#123;</p>
                   <p className="pl-4 text-on-surface">location: <span className="text-tertiary-container">&apos;Bangladesh 🇧🇩&apos;</span>,</p>
                   <p className="pl-4 text-on-surface">specialization: <span className="text-tertiary-container">&apos;MERN Stack&apos;</span>,</p>
