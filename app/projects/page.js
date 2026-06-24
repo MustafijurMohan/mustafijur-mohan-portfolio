@@ -5,6 +5,7 @@ import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import blog from "../images/Blog.png";
 import ecom from "../images/Ecommerce.png";
+import quickcart from "../images/QuickCart.png";
 import Image from "next/image";
 
 const fadeUp = {
@@ -17,7 +18,20 @@ const fadeUp = {
 
 const projects = [
   {
-    id: 1, category: "MERN",
+    id: 1, category: "Ecommerce",
+    title: "QuickCart Ecommerce",
+    desc: "A full-featured clothing e-commerce platform with a role-based admin panel, real-time product/order management, and Stripe integration.",
+    tags: ["React","Node.js","MongoDB","Stripe","Tailwind CSS","Cloudinary"],
+    tagColors: ["Full Stack","Stripe API"],
+    gradient: "from-[#00d2ff]/20 via-[#9d50bb]/15 to-transparent",
+    icon: "shopping_cart",
+    features: ["Role-based admin panel","Stripe & Cash on Delivery","Real-time order tracking","Cloudinary image upload","JWT authentication"],
+    image: quickcart,
+    liveLink: "https://quick-cart-git-main-mustafijurmohans-projects.vercel.app",
+    gitHubLink: "https://github.com/MustafijurMohan/QuickCart",
+  },
+  {
+    id: 2, category: "MERN",
     title: "Multiple Author Blog Platform",
     desc: "A complex ecosystem featuring granular author roles, a custom rich text editor, and a deep-dive admin dashboard for content management at scale.",
     tags: ["MongoDB","Express","React","Node.js","JWT","Rich Text Editor"],
@@ -30,7 +44,7 @@ const projects = [
     gitHubLink: "https://github.com/MustafijurMohan/Multiple_Author_Blog",
   },
   {
-    id: 2, category: "Ecommerce",
+    id: 3, category: "Ecommerce",
     title: "Premium Ecommerce App",
     desc: "Scalable product management system with real-time inventory tracking, secure Stripe payments, and a dynamic admin control panel.",
     tags: ["React","Node.js","MongoDB","Stripe","Redux","AWS S3"],
@@ -43,7 +57,7 @@ const projects = [
     gitHubLink: "https://github.com/MustafijurMohan/NextGadget",
   },
   {
-    id: 3, category: "SaaS",
+    id: 4, category: "SaaS",
     title: "Project Management SaaS",
     desc: "Collaborative project management tool with real-time updates via Socket.io, Kanban boards, and team workspace management.",
     tags: ["Next.js","Socket.io","MongoDB","Tailwind","JWT","Vercel"],
@@ -53,7 +67,7 @@ const projects = [
     features: ["Real-time collaboration","Kanban board","Team management","File sharing","Activity timeline"],
   },
   {
-    id: 4, category: "Dashboard",
+    id: 5, category: "Dashboard",
     title: "Analytics Dashboard",
     desc: "Enterprise-grade analytics and data visualization dashboard with real-time metrics, custom report generation, and role-based access.",
     tags: ["React","D3.js","Node.js","PostgreSQL","Redis","Docker"],
@@ -63,7 +77,7 @@ const projects = [
     features: ["Real-time charts","Custom reports","Data export","Role-based views","Email alerts"],
   },
   {
-    id: 5, category: "MERN",
+    id: 6, category: "MERN",
     title: "Social Media API",
     desc: "A scalable, high-performance REST API for a social media platform with feeds, notifications, follows, and media uploads.",
     tags: ["Node.js","Express","MongoDB","Cloudinary","Socket.io","Redis"],
@@ -73,7 +87,7 @@ const projects = [
     features: ["News feed algorithm","Push notifications","Follow/Unfollow","Media uploads","Real-time chat"],
   },
   {
-    id: 6, category: "Ecommerce",
+    id: 7, category: "Ecommerce",
     title: "Restaurant Ordering System",
     desc: "Full-stack food ordering application with real-time order tracking, multi-restaurant support, and a comprehensive restaurant admin panel.",
     tags: ["React","Node.js","MongoDB","Stripe","Socket.io","Google Maps"],

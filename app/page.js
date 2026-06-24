@@ -7,6 +7,7 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import blog from './images/Blog.png'
 import ecom from './images/Ecommerce.png'
+import quickcart from './images/QuickCart.png'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -28,6 +29,15 @@ const services = [
 ];
 
 const projects = [
+  {
+    title: "QuickCart Ecommerce",
+    desc: "A full-featured clothing e-commerce platform with a role-based admin panel, real-time product/order management, and Stripe integration.",
+    tags: [{ label: "Full Stack", cls: "bg-primary-container/20 text-primary-container" }, { label: "Stripe API", cls: "bg-secondary/20 text-secondary" }],
+    gradient: "from-[#00d2ff]/20 via-[#9d50bb]/10 to-transparent",
+    image: quickcart,
+    liveLink: "https://quick-cart-git-main-mustafijurmohans-projects.vercel.app",
+    gitHubLink: "https://github.com/MustafijurMohan/QuickCart",
+  },
   {
     title: "Multiple Author Blog Platform",
     desc: "A complex ecosystem featuring granular author roles, a custom rich text editor, and a deep-dive admin dashboard for content management.",
@@ -193,7 +203,7 @@ export default function Home() {
           </motion.div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {projects.map((p, i) => (
-              <motion.article key={p.title} className="glass-panel rounded-3xl overflow-hidden group flex flex-col justify-between"
+              <motion.article key={p.title} className={`glass-panel rounded-3xl overflow-hidden group flex flex-col justify-between ${i === 0 ? "lg:col-span-2" : ""}`}
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}>
                 <div>
                   <div className={`relative h-56 w-full overflow-hidden flex items-center justify-center bg-gradient-to-br ${p.gradient}`}>
@@ -202,7 +212,7 @@ export default function Home() {
                         src={p.image}
                         alt={p.title}
                         fill
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes={i === 0 ? "100vw" : "(max-width: 768px) 100vw, 50vw"}
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
                         priority={i === 0}
                       />
