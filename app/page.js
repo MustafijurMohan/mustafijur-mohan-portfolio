@@ -94,7 +94,7 @@ export default function Home() {
                 <Link href="/contact" className="glass-panel px-8 py-4 rounded-xl font-bold border border-outline-variant text-on-surface hover:bg-surface-variant/20 transition-all">
                   Hire Me
                 </Link>
-                <a href="/Mustafijur_Mohan_Resume.pdf" download="Mustafijur_Mohan_Resume.pdf" className="glass-panel px-8 py-4 rounded-xl font-bold border border-outline-variant text-on-surface hover:bg-surface-variant/20 transition-all flex items-center gap-2">
+                <a href="/Mustafijur_Mohan_Resume_ATS.pdf" download="Mustafijur_Mohan_Resume_ATS.pdf" className="glass-panel px-8 py-4 rounded-xl font-bold border border-outline-variant text-on-surface hover:bg-surface-variant/20 transition-all flex items-center gap-2">
                   Download CV <span className="material-symbols-outlined">download</span>
                 </a>
               </motion.div>
