@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Mustafijur Mohan | Senior MERN Stack Developer",
+  title: "Mustafijur Mohan | MERN Stack Developer",
   description: "Architecting high-performance web ecosystems through elegant logic and modern engineering.",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2300d2ff'/><text x='50%25' y='54%25' font-family='monospace' font-weight='900' font-size='13' fill='%23000' text-anchor='middle' dominant-baseline='middle'>MM</text></svg>",

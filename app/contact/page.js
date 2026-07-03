@@ -13,9 +13,11 @@ const fadeUp = {
 };
 
 const contactInfo = [
-  { icon: "mail", label: "Email", value: "contact@mustafijur.com", href: "mailto:contact@mustafijur.com" },
+  { icon: "mail", label: "Email", value: "mustafijurmohan@gmail.com", href: "mailto:mustafijurmohan@gmail.com" },
   { icon: "link", label: "LinkedIn", value: "linkedin.com/in/mustafijur", href: "https://www.linkedin.com/in/mustafijur-mohan-7a9958209/" },
   { icon: "code", label: "GitHub", value: "github.com/mustafijur", href: "https://github.com/MustafijurMohan" },
+  { icon: "forum", label: "Reddit", value: "u/Mustafijur_Dev", href: "https://www.reddit.com/user/Mustafijur_Dev" },
+  { icon: "photo_camera", label: "Instagram", value: "@mohanmustafijur", href: "https://www.instagram.com/mohanmustafijur" },
   { icon: "location_on", label: "Location", value: "Bangladesh 🇧🇩", href: "#" },
 ];
 

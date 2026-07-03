@@ -23,7 +23,7 @@ const skills = [
 ];
 
 const experience = [
-  { role: "Senior MERN Stack Developer", company: "Freelance / Remote", period: "2022 — Present", desc: "Architecting full-stack MERN applications for global clients. Delivering scalable SaaS products, ecommerce platforms, and admin dashboards with modern UI/UX." },
+  { role: "MERN Stack Developer", company: "Freelance / Remote", period: "2022 — Present", desc: "Architecting full-stack MERN applications for global clients. Delivering scalable SaaS products, ecommerce platforms, and admin dashboards with modern UI/UX." },
   { role: "Full Stack Developer", company: "Tech Startup, Dhaka", period: "2020 — 2022", desc: "Built and maintained production-ready Node.js/React applications. Led backend API design, database modeling, and frontend component architecture." },
   { role: "Junior Web Developer", company: "Digital Agency", period: "2019 — 2020", desc: "Developed responsive websites and implemented REST API integrations. Gained experience in the full software development lifecycle." },
 ];
@@ -46,7 +46,7 @@ export default function AboutPage() {
               The <span className="text-primary-container">Invisible Engine</span> Behind Your Next Project
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-body-lg text-on-surface-variant max-w-3xl">
-              I&apos;m Mustafijur Mohan — a Senior MERN Stack Developer with 5 years of experience building high-performance, scalable web applications. I combine deep technical expertise with a sharp eye for user experience to deliver products that truly matter.
+              I&apos;m Mustafijur Mohan — a Full Stack Web Developer with 5 years of experience building high-performance, scalable web applications. I combine deep technical expertise with a sharp eye for user experience to deliver products that truly matter.
             </motion.p>
           </motion.div>
         </section>

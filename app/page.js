@@ -82,7 +82,7 @@ export default function Home() {
                 Hi, I&apos;m <span className="text-primary-container">Mustafijur Mohan</span>
               </motion.h1>
               <motion.h2 variants={fadeUp} custom={2} className="font-headline-md text-headline-md text-on-surface-variant">
-                MERN Stack Developer with 5 Years Experience
+                Full Stack Web Developer with 5 Years Experience
               </motion.h2>
               <motion.p variants={fadeUp} custom={3} className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
                 Architecting high-performance web ecosystems through elegant logic and modern engineering. I specialize in building scalable MERN applications that prioritize user experience and technical integrity.
@@ -120,7 +120,7 @@ export default function Home() {
                 <div className="bg-surface-container-lowest p-6 font-code-sm text-code-sm space-y-2">
                   <p className="text-secondary"><span className="text-primary">const</span> developer = &#123;</p>
                   <p className="pl-4 text-on-surface">name: <span className="text-tertiary-container">&apos;Mustafijur Mohan&apos;</span>,</p>
-                  <p className="pl-4 text-on-surface">role: <span className="text-tertiary-container">&apos;Senior MERN Stack&apos;</span>,</p>
+                  <p className="pl-4 text-on-surface">role: <span className="text-tertiary-container">&apos; MERN Stack Developer&apos;</span>,</p>
                   <p className="pl-4 text-on-surface">experience: <span className="text-primary-fixed-dim">5</span>,</p>
                   <p className="pl-4 text-on-surface">skills: [<span className="text-tertiary-container">&apos;React&apos;, &apos;Node&apos;, &apos;Mongo&apos;</span>],</p>
                   <p className="pl-4 text-on-surface">status: <span className="text-tertiary-container">&apos;Available&apos;</span></p>
@@ -259,8 +259,10 @@ export default function Home() {
                 <p className="text-on-surface-variant font-body-lg text-body-lg">Ready to take your digital product to the next level? I&apos;m currently available for freelance opportunities and full-time senior positions.</p>
                 <div className="space-y-4 pt-4">
                   {[
-                    { icon: "mail", label: "contact@mustafijur.com", href: "mailto:contact@mustafijur.com" },
+                    { icon: "mail", label: "mustafijurmohan@gmail.com", href: "mailto:mustafijurmohan@gmail.com" },
                     { icon: "link", label: "linkedin.com/in/mustafijur", href: "https://www.linkedin.com/in/mustafijur-mohan-7a9958209/" },
+                    { icon: "forum", label: "reddit.com/user/Mustafijur_Dev", href: "https://www.reddit.com/user/Mustafijur_Dev" },
+                    { icon: "photo_camera", label: "instagram.com/mohanmustafijur", href: "https://www.instagram.com/mohanmustafijur" },
                   ].map((c) => (
                     <a key={c.label} href={c.href} className="flex items-center gap-4 group">
                       <div className="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-on-primary-container transition-all">
